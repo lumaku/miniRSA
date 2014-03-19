@@ -184,7 +184,7 @@ uint16_t RSA_ExtEuklid(uint16_t u, uint16_t v)
 		u1 = v + u1;
 		return ((uint16_t)u1);
 	} else {
-		return u1;
+		return ((uint16_t)u1);
 	}
 }
 
